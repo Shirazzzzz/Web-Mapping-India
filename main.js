@@ -22,7 +22,7 @@ var osmTile = new ol.layer.Tile ({
     source: new ol.source.OSM()
 });
 
-map.addLayer(osmTile);
+//map.addLayer(osmTile);
 
 var baseGroup = new ol.layer.Group({
     title: 'Base Maps',
@@ -30,7 +30,7 @@ var baseGroup = new ol.layer.Group({
     layers: [osmTile, noneTile]
 });
 
-map.addLayer(baseGroup);
+//map.addLayer(baseGroup);
 
 var Districts_India = new ol.layer.Tile({
     title: "India Districts",
