@@ -1,5 +1,5 @@
 * Features
--> Attribute Query Functionality (Example: List all districts in India with prefix "bhav")
+-> Attribute Query Functionality (Example: List all districts in India with prefix "bhav")\n
 -> Spatial Query (buffer) Functionality (Example: List cities within 100 km of custom path/point)
 -> Displaying User’s Live Location (Produce live location of the user)
 -> Editing Functionality (add, modify, delete features on the map) (Example: Adding new infrastructure that has been built by the MCD)
