@@ -1,4 +1,4 @@
-* Features
+* **Features**
 - Attribute Query Functionality (Example: List all districts in India with prefix "bhav")
 -  Spatial Query (buffer) Functionality (Example: List cities within 100 km of custom path/point)
 -  Displaying User’s Live Location (Produce live location of the user)
@@ -11,7 +11,7 @@
 -  Length and Area Measurements Controls between points (Distance between points or area bounded by points)
 -  Custom Zoom-In and Zoom-Out Controls
   
-* Prerequisites
+* **Prerequisites**
   - Build data in "Final shapefiles" on local postgreSQL.
   - Create Workspace on Geoserver and link postgreSQL/pgAdmin
   - Make changes in the html and Js code (related to addresses, etc) and then launch the page
