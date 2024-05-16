@@ -42,7 +42,7 @@ var Districts_India = new ol.layer.Tile({
     })
 });
 
-map.addLayer(Districts_India);
+//map.addLayer(Districts_India);
 
 var States_India = new ol.layer.Tile({
     title: "India States",
@@ -54,7 +54,7 @@ var States_India = new ol.layer.Tile({
     })
 });
 
-map.addLayer(States_India);
+//map.addLayer(States_India);
 
 var Cities_India = new ol.layer.Tile({
     title: "India Cities",
@@ -66,7 +66,7 @@ var Cities_India = new ol.layer.Tile({
     })
 });
 
-map.addLayer(Cities_India);
+//map.addLayer(Cities_India);
 
 var Roads_India = new ol.layer.Tile({
     title: "India Roads",
@@ -78,7 +78,7 @@ var Roads_India = new ol.layer.Tile({
     })
 });
 
-map.addLayer(Roads_India);
+//map.addLayer(Roads_India);
 
 var Buildings_India = new ol.layer.Tile({
     title: "India Buildings",
@@ -90,7 +90,7 @@ var Buildings_India = new ol.layer.Tile({
     })
 });
 
-map.addLayer(Buildings_India);
+//map.addLayer(Buildings_India);
 
 var WaterBody_India = new ol.layer.Tile({
     title: "India WaterBody",
@@ -102,7 +102,7 @@ var WaterBody_India = new ol.layer.Tile({
     })
 });
 
-map.addLayer(WaterBody_India);
+//map.addLayer(WaterBody_India);
 
 var overlayGroup = new ol.layer.Group({
     title: 'Overlays',
@@ -110,7 +110,7 @@ var overlayGroup = new ol.layer.Group({
     layers: [Districts_India, States_India, Cities_India, Roads_India, Buildings_India, WaterBody_India] 
 });
 
-map.addLayer(overlayGroup);
+//map.addLayer(overlayGroup);
 
 //var layerSwitcher = new ol.control.LayerSwitcher({
  //   activationMode: 'click',
