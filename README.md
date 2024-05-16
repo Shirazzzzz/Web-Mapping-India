@@ -1,3 +1,16 @@
+* Features
+-> Attribute Query Functionality (Example: List all districts in India with prefix "bhav")
+-> Spatial Query (buffer) Functionality (Example: List cities within 100 km of custom path/point)
+-> Displaying User’s Live Location (Produce live location of the user)
+-> Editing Functionality (add, modify, delete features on the map) (Example: Adding new infrastructure that has been built by the MCD)
+-> Live Attribute Search (like google search)
+-> Layer Switcher (toggle feature on multiple layers)
+-> Mouse Position and Scale Bar
+-> Feature Information Pop-Up
+-> Custom Controls (Home button, Full-screen button, and Feature Info button)
+-> Length and Area Measurements Controls between points
+-> Custom Zoom-In and Zoom-Out Controls
+  
 * Prerequisites
   - Build data in "Final shapefiles" on local postgreSQL.
   - Create Workspace on Geoserver and link postgreSQL/pgAdmin
