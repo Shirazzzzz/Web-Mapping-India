@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Project: Web Mapping</title>
+    <link rel="stylesheet" href="resources/ol/ol-ext.css">
+    <link rel="stylesheet" href="resources/layer switcher/ol-ext.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="map">                                        <!--for live location-->
+        <button id="btnCrosshair" title="Live Location">
+            <i class="fa fa-crosshairs fa-2x"></i>
+        </button>
+    </div>
+
+    <div class="grid-container">
+        <div class="header">
+            <img src="resources/images/DRDO_logo.png" alt="" style="width: inherit; height: inherit; vertical-align: middle;">
+            <span style="vertical-align: middle;">DRDO - Web Mapping Application</span>
+        </div>
+        <div class="left">
+            <div class="toc">
+                <h3>Layers</h3>
+                <input type="checkbox" id="osm" name="osm" value="Open Street Map" checked onchange="toggleLayer(event);">
+                <label for="osm">Open Street Map</label>
+                <br>
+
+                <input type="checkbox" id="districts" name="districts" value="India Districts" checked onchange="toggleLayer(event);">
+                <label for="districts">India Districts</label>
+                <br>
+
+                <input type="checkbox" id="cities" name="cities" value="India Cities" checked onchange="toggleLayer(event);">
+                <label for="cities">India Cities</label>
+                <br>
+
+                <input type="checkbox" id="states" name="states" value="India States" checked onchange="toggleLayer(event);">
+                <label for="states">India States</label>
+                <br>
+
+                <input type="checkbox" id="roads" name="states" value="India Roads" checked onchange="toggleLayer(event);">
+                <label for="roads">India Roads</label>
+                <br>
+
+                <input type="checkbox" id="buildings" name="buildings" value="India Buildings" checked onchange="toggleLayer(event);">
+                <label for="buildings">India Buildings</label>
+                <br>
+
+                <input type="checkbox" id="waterbody" name="waterbody" value="India WaterBody" checked onchange="toggleLayer(event);">
+                <label for="waterbody">India Water</label>
+                <br>
+
+            </div>
+        </div>
+        <div class="right">
+            <div id="map"></div>
+        </div>
+    </div> */
+    
+    <div id="popup" class="ol-popup">
+        <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+        <div id="popup-content"></div>
+    </div>
+
+    <div class="attQueryDiv" id="attQueryDiv">
+        <div class="headerDiv" id="headerDiv">
+            <label for="">Attribute Query</label>
+        </div><br>
+        <label for="">Select Layer</label>
+        <select name="selectLayer" id="selectLayer">
+        </select>
+        <!--<br><br>-->
+
+        <label for="">Select Attribute</label>
+        <select name="selectAttribute" id="selectAttribute">
+        </select>
+        <!--<br><br>-->
+
+        <label for="">Select Operator</label>
+        <select name="selectOperator" id="selectOperator">
+        </select>
+        <!--<br><br>-->
+
+        <label for="">Enter Value</label>
+        <input type="text" name="enterValue" id="enterValue">
+        </select>
+        <!--<br><br>-->
+
+        <button type="button" id="attQryRun" class="attQryRun" onclick="attributeQuery()">Run</button>
+        <button type="button" id="attQryRun" class="attQryClear">Clear</button> <!-- not sure about this one -->
+    </div>
+    <!--<div class="toggleAttributeListDiv" id="toggleAttributeListDiv"></div>-->
+    <div class="attListDiv" id="attListDiv">
+    </div>
+
+    <div class="spQueryDiv" id="spQueryDiv">
+        <div class="headerDiv" id="headerDiv">
+            <label for="">Spatial Query</label>
+        </div>
+        <label for="">Select features of </label>
+        <select name="buffselectLayer" id="buffselectLayer">
+        </select>
+        <!--<br><br>-->
+
+        <label for="">that are </label>
+        <select name="qryType" id="qryType">
+            <option value="withinDistance">Within Distance of</option>
+            <option value="intersecting">Intersecting</option>
+            <option value="completelyWithin">Completely Within</option>
+        </select>
+        <!--<br><br>-->
+
+        <div class="bufferDiv" id="bufferDiv">                             <!-- adds or removes the number value column based on within distance of, intersecting, completely within-->
+            <!--<label for="">Distance in meter</label>-->
+            <input type="number" name="bufferDistance" id="bufferDistance" placeholder="1000">
+            <select name="distanceUnits" id="distanceUnits">
+                <option value="meters">Meters</option>
+                <option value="Kilometers">KiloMeters</option>
+                <option value="feet">feet</option>
+                <option value="nautical miles">Nautical Miles</option>
+            </select>
+            <!--<br><br>-->
+
+            <label for="">from</label>
+        </div>
+
+        <select name="srcCriteria" id="srcCriteria">
+            <option value="pointMarker">Point Marker</option>
+            <option value="lineMarker">Line Marker</option>
+            <option value="polygonMarker">Polygon Marker</option>
+        </select>
+        <!--<br><br>-->
+
+        <button type="button" id="spUserInput" class="spUserInput"><img src="resources/images/selection_icon.png" alt=""
+        style="width:17px;height:17px;vertical-align:middle"></img></button>
+
+        <button type="button" id="spQryRun" class="spQryRun">Run</button>
+
+        <button type="button" id="spQryClear" class="spQryClear">Clear</button>
+    </div>
+
+    <div class="editingControlsDiv" id="editingControlsDiv">
+
+    </div>
+
+    <div class="settingsDiv" id="settingsDiv">
+        <div class="headerDiv" id="headerDiv">
+            <label for="">Settings</label>
+        </div>
+        <label for="">FeatureInfo Layer</label><br>
+        <select name="featureInfoLayer" id="featureInfoLayer">
+            <option value="All layers">All Layers</option>
+            <option value="Visible layers">Visible Layers</option>
+        </select>
+        <label for="">Editing Layer</label><br>
+        <select name="editingLayer" id="editingLayer">
+        </select>
+    </div>
+
+    <div class="cntr" id="cntr">
+        <div class="cntr-innr">
+            <label class="search" for="input_search">
+                <input id="inpt_search" type="text" />
+            </label>
+        </div>
+        <div class="liveDataDiv" id="liveDataDiv"></div>
+    </div>
+
+    <script src="resources/ol/ol-ext.js"></script>
+    <script src="resources/layer switcher/ol-ext.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
