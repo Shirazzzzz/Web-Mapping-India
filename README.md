@@ -1,3 +1,9 @@
+* **REACT VERSION WILL BE UP SOON**
+
+* <img width="832" alt="image" src="https://github.com/user-attachments/assets/379e3acd-9c3f-4652-8639-877039260d2a">
+React version under dev
+
+
 * **Features**
 - Attribute Query Functionality (Example: List all districts in India with prefix "bhav")
 -  Spatial Query (buffer) Functionality (Example: List cities within 100 km of custom path/point)
