@@ -1,6 +1,7 @@
 * **REACT VERSION WILL BE UP SOON**
 
-* <img width="832" alt="image" src="https://github.com/user-attachments/assets/379e3acd-9c3f-4652-8639-877039260d2a">
+<img width="948" alt="image" src="https://github.com/user-attachments/assets/5b07aad2-82e9-4050-9b51-494be699e373">
+
 React version under dev
 
 
