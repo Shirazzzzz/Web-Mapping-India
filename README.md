@@ -6,10 +6,14 @@
 React version under dev
 <br>
 <br>
+<br>
+<br>
 
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/a8d766c7-2eb7-43bc-8938-ed5d40526db2">
 <br>
 Homescreen
+<br>
+<br>
 <br>
 <br>
 
@@ -18,10 +22,14 @@ Homescreen
 Toggle between Layers
 <br>
 <br>
+<br>
+<br>
 
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/78de1dc7-11a0-49ed-b5b8-49cd95283cff">
 <br>
 Enable Feature Info Popup and get more info by clicking anywhere on map
+<br>
+<br>
 <br>
 <br>
 
@@ -30,10 +38,14 @@ Enable Feature Info Popup and get more info by clicking anywhere on map
 Do wildcard or exact matching using different operators on different layers
 <br>
 <br>
+<br>
+<br>
 
 <img width="433" alt="image" src="https://github.com/user-attachments/assets/78c68aa6-8760-47de-81fd-9d446184f602">
 <br>
 Distance and Area Functionality (Vanilla)
+<br>
+<br>
 <br>
 <br>
 
@@ -42,10 +54,14 @@ Distance and Area Functionality (Vanilla)
 Spatial Query from point of reference (Vanilla)
 <br>
 <br>
+<br>
+<br>
 
 <img width="437" alt="image" src="https://github.com/user-attachments/assets/ec43dab2-fcfe-4e44-bcbb-6442ffce4f9f">
 <br>
 Spatial Query from line of reference (Vanilla)
+<br>
+<br>
 <br>
 <br>
 
@@ -54,10 +70,14 @@ Spatial Query from line of reference (Vanilla)
 Area based Spatial Query (Vanilla)
 <br>
 <br>
+<br>
+<br>
 
 <img width="458" alt="image" src="https://github.com/user-attachments/assets/d2773189-d6ed-4f27-9c4b-d458b09f7644">
 <br>
 Line intersect spatial query (Vanilla)
+<br>
+<br>
 <br>
 <br>
 
@@ -66,10 +86,14 @@ Line intersect spatial query (Vanilla)
 Area based spatial query (2) (Vanilla)
 <br>
 <br>
+<br>
+<br>
 
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/6768374a-c5bc-43d8-b1ae-b14af384ed4b">
 <br>
 Auto-locate feature (location proxy used here) (Vanilla)
+<br>
+<br>
 <br>
 <br>
 
@@ -78,10 +102,14 @@ Auto-locate feature (location proxy used here) (Vanilla)
 Edit Feature: Add new features to the Map (Vanilla)
 <br>
 <br>
+<br>
+<br>
 
 <img width="410" alt="image" src="https://github.com/user-attachments/assets/056c5738-155d-41ab-8025-fc7ec58facf5">
 <br>
 Edit Feature: Modify existing features (Vanilla)
+<br>
+<br>
 <br>
 <br>
 
@@ -90,10 +118,14 @@ Edit Feature: Modify existing features (Vanilla)
 Edit Feature: Delete existing features (Vanilla)
 <br>
 <br>
+<br>
+<br>
 
 <img width="414" alt="image" src="https://github.com/user-attachments/assets/7fcc8656-921a-4f14-9cb0-428313b46b8a">
 <br>
 Live attribute search (like google search) (Vanilla)
+<br>
+<br>
 <br>
 <br>
 
