@@ -1,9 +1,58 @@
-* **REACT VERSION WILL BE UP SOON**
+* **Migrating from Vanilla to React. REACT FILES WILL BE UP SOON**
 
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/80ccffd8-a25f-4fdd-9336-66f6cadc3eea">
 
 
 React version under dev
+
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/a8d766c7-2eb7-43bc-8938-ed5d40526db2">
+Homescreen
+
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/5e5b6c56-4673-455e-8662-7470ee6f87e3">
+Toggle between Layers
+
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/78de1dc7-11a0-49ed-b5b8-49cd95283cff">
+Enable Feature Info Popup and get more info by clicking anywhere on map
+
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/9bd4c2c9-9cba-4438-8487-931370f66d56">
+Do wildcard or exact matching using different operators on different layers
+
+<img width="433" alt="image" src="https://github.com/user-attachments/assets/78c68aa6-8760-47de-81fd-9d446184f602">
+Distance and Area Functionality (Vanilla)
+
+<img width="442" alt="image" src="https://github.com/user-attachments/assets/dcbdffa8-462a-4eea-b7ce-236f9284686c">
+Spatial Query from point of reference (Vanilla)
+
+<img width="437" alt="image" src="https://github.com/user-attachments/assets/ec43dab2-fcfe-4e44-bcbb-6442ffce4f9f">
+Spatial Query from line of reference (Vanilla)
+
+<img width="451" alt="image" src="https://github.com/user-attachments/assets/7b0aa956-faad-409b-b073-f2cc3c9600d1">
+Area based Spatial Query (Vanilla)
+
+<img width="458" alt="image" src="https://github.com/user-attachments/assets/d2773189-d6ed-4f27-9c4b-d458b09f7644">
+Line intersect spatial query (Vanilla)
+
+<img width="451" alt="image" src="https://github.com/user-attachments/assets/81e869d1-ec2f-4983-b5f5-86b5421498cf">
+Area based spatial query (2) (Vanilla)
+
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/6768374a-c5bc-43d8-b1ae-b14af384ed4b">
+Auto-locate feature (location proxy used here) (Vanilla)
+
+<img width="399" alt="image" src="https://github.com/user-attachments/assets/06784225-1adb-480b-92f4-98ab2e4ad708">
+Edit Feature: Add new features to the Map (Vanilla)
+
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/056c5738-155d-41ab-8025-fc7ec58facf5">
+Edit Feature: Modify existing features (Vanilla)
+
+<img width="449" alt="image" src="https://github.com/user-attachments/assets/64770d6a-0aef-4157-84ce-f970c36c3d38">  <img width="453" alt="image" src="https://github.com/user-attachments/assets/633cab42-7a09-4439-ae06-0a3ec8c5222e">
+Edit Feature: Delete existing features (Vanilla)
+
+<img width="414" alt="image" src="https://github.com/user-attachments/assets/7fcc8656-921a-4f14-9cb0-428313b46b8a">
+Live attribute search (like google search) (Vanilla)
+
+
+
+
 
 
 * **Features**
